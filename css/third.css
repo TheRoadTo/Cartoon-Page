@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 宋体, Arial, Helvetica,sans-serif;
+	font-size: 11pt;
+	color:#000000 ;
+	background: #FFFFFF;
+	
+}
+*{
+	margin: 0 auto;
+	
+	
+}
+		
+#wrapper{
+	width: 1500px;
+	margin: 0 auto;
+}
+.header{
+	background: #0DBE98;
+	width: 1500px;
+	height: 151px;
+	margin-top: 5px;
+}
+
+.h1{
+	float: left;
+	margin-top: 20px;
+	margin-left: 80px;
+	font-size: 20px;
+	color: #11264f;
+}
+.header_img{
+	background-image:url(../image/head1.jpg) ;
+	width: 268px;
+	height:151px;
+    padding: 0px;
+	float: left;
+	margin-left: 300px;
+	
+}
+.hai{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	line-height: 140px;
+}
+.w{
+	float: right;
+	padding:10px 50px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.w a{
+	color: #fff;
+}
+.w a:hover{
+	text-decoration: none;
+	color: #f391a9;
+}
+#navi{
+	clear: both;
+}
+#navi ul{
+	background:#069;
+	height:25px;
+	margin: 0;
+	line-height: 25px;
+	
+}
+#navi ul li{
+	display: inline;
+	padding:0px 50px;
+}
+#navi ul li a{
+	font-size:20px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+#navi ul li a:hover{
+	color: #f391a9;
+	text-decoration: underline;
+}
+#navi_clear_both{
+	clear: both;
+	height: 15px;
+}
+#container{
+    border: 2px  solid #4e72b8;
+	height: 1000px;
+	background:  #FFFFFF;
+	
+}
+.head{
+	background: url(../image/bg.png) no-repeat top center;
+	height: 395px;
+	
+	
+	
+}
+.aside_left{
+	background:url(../image/logo.png) no-repeat;
+	position: relative;
+	float: left;
+	top:65px;
+	height: 70px;
+	wideth:80px;
+	background-size: contain;
+	margin-right: 50px;
+	margin-left: 20px;
+	
+}
+.img0{
+	background: url(../image/01.jpg) no-repeat;
+	width: 250px;
+	height:175px;
+	float: left;
+	margin-left: 350px;
+}
+.img1{
+	background: url(../image/02.jpg) no-repeat;
+	width: 250px;
+	height: 175px;
+	float: left;
+	margin-left:10px;
+	
+}
+.img2{
+	background: url(../image/03.jpg) no-repeat;
+	width: 250px;
+	height: 175px;
+	float: left;
+	margin-left: 10px;
+}
+
+.aside_right{
+	background: url(../image/yikan.png) no-repeat;
+	float:left;
+	width: 100px;
+	height: 84px;
+	margin-left:1300px;
+}
+.clear_both_1{
+	clear: both;
+	margin: 0;
+	padding: 0;
+	
+}
+.aside_center{
+	width: 1000px;
+	border: 2px solid #ddd;
+	height: 30px;
+	margin:100px auto 0 auto;
+    background: #fff;
+	
+	
+	
+}
+.aside_center span{
+	line-height: 30px;
+	
+}
+.span{
+	margin-left: 50px;
+	
+}
+.aside_bottom{
+	width: 1000px;
+	border: 1px solid #ddd;
+	height: 80px;
+	margin:0px auto 0 auto;
+    background: #fff;
+	padding: 0px;
+	border-top: none;
+	
+}
+.item{
+	display: block;
+	float: left;
+	line-height: 40px;
+	padding-right: 7px;
+	width: 230px;
+	height: 40px;
+	
+}
+.bottom1 ul li a{
+	text-decoration:none;
+	color: #000;
+	clear: both;
+}
+.bottom1 ul li a:hover{
+	color: #13A8DC;
+	background:#E3D3D3;
+	padding: 5px 5px;
+	border-radius: 5px;
+}
+.content{
+	width: 1000px;
+	border: 2px solid #ddd;
+	background: #fff;
+	height: 600px;
+	margin-top: 10px;
+	
+}
+.content_font{
+	text-indent:2em;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 15px;
+	color: black;
+}
+.jiben{
+	margin-top: 50px;
+}
+.jb{
+	background: #37ab2f;
+	display: block;
+	height: 24px;
+	width: 10px;
+	margin: 0 0 -30px 0;
+	
+}
+.jiben1{
+	padding: 0 0 0 30px;
+	font-weight: bold;
+	font-size: 30px;
+	
+	
+}
+.box{
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	width: 900px;
+	margin-top: 10px;
+	
+}
+.box_ul{
+	width: 45%;
+	display: inline-block;
+	overflow:hidden;
+	
+	
+}
+.box_ul li{
+	background: #fff;
+	position: relative;
+	list-style-type: none;
+	text-align: center;
+	font-size: 20px;
+	
+	
+}
+
+.box_1{
+	display: inline;
+	width:150px;
+	background:#D9D9D9;
+	outline: 0;
+	word-wrap: normal;
+	float: left;
+	margin-left: -40px;
+	list-style-type: none;
+	
+	
+}
+.box_2{
+	display:inline;
+	width:100%;
+	
+
+	
+}
+.box1{
+	display: inline-block;
+	width: 45%;
+	overflow: hidden;
+	white-space: nowrap;
+	
+}
+.box1 li{
+	background: #fff;
+	position: relative;
+	list-style-type: none;
+	text-align: center;
+	font-size: 20px;
+	
+	
+}
+.clear_both{
+	clear:both;
+	height:5px;
+}
+#footer{
+	height: 3px;
+    border: 3px  solid #f39;
+}
+#footer p{
+	padding-top:5px;
+	text-align: center;
+}
+
+     
+	
+
+

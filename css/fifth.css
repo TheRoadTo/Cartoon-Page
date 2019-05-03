@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 宋体，Arial, Helvetica,sans-serif;
+	font-size: 11pt;
+	color: #000000;
+	background:#FFFFFF;
+	
+}
+*{
+	margin-top: 0;
+}
+#wrapper{
+	width:1500px;
+	margin: 0 auto;
+}
+.header{
+	background: #525f42;
+	width: 1500px;
+	height: 151px;
+	margin-top: 5px;
+}
+
+.h1{
+	float: left;
+	margin-top: 20px;
+	margin-left: 80px;
+	font-size: 20px;
+	color: #11264f;
+}
+.header_img{
+	background-image:url(../image/head1.jpg) ;
+	width: 268px;
+	height:151px;
+    padding: 0px;
+	float: left;
+	margin-left: 300px;
+	
+}
+.hai{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	line-height: 140px;
+}
+.w{
+	float: right;
+	padding:10px 50px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.w a{
+	color: #fff;
+}
+.w a:hover{
+	text-decoration: none;
+	color: #f391a9;
+}
+#navi{
+	clear: both;
+	
+}
+#navi ul{
+	background:#c99979;
+	height:25px;
+	margin: 0;
+	line-height: 25px;
+	
+}
+#navi ul li{
+	display: inline;
+	padding:0px 50px;
+}
+#navi ul li a{
+	font-size:20px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+#navi ul li a:hover{
+	color: #f391a9;
+	text-decoration: underline;
+}
+#navi_clear_both{
+	clear: both;
+	height: 10px;
+}
+#container{
+	max-width: 1500px;
+	
+}
+#content{
+	border: 1px solid #ccc;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	overflow: hidden;
+	box-shadow: 1px 1px 10px #ddd;
+	background:#d3d7d4;
+	line-height: 30px;
+	padding-top: 10px;
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+}
+h3,p{
+	text-indent: 2em;
+	font-size: 20px;
+}
+#img_g{
+	background: url(../image/jq.jpg) no-repeat;
+	width:60px;
+	height: 60px;
+	margin: 0 auto;
+	border: #ddd 1px solid;
+	
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-style:solid;
+	border-bottom-style: solid;
+	border-top-color: #ddd;
+	border-bottom-color:#ddd;
+	border-right-color:#ddd;
+	border-left-color:#ddd;
+	
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	margin-bottom: 10px;
+}
+.clear_both{
+	clear: both;
+	height: 10px;
+}
+#footer{
+	height: 3px;
+    border: 3px  solid #293047;
+}
+#footer p{
+	padding-top:10px;
+	text-align: center;
+}
+
+
